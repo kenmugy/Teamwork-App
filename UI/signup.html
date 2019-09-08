@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Welcome</title>
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <main>
         <section class="sign-up-page">
             <h1 >TEAMWORK</h1>
+            <button class="btn btn-login">login</button>
         <button class="btn btn-signup">sign-up</button>
       <section class="modal-background">
           <div class="modal">
@@ -24,6 +25,16 @@
         </form>
     </div>
       </section>
+      <section class="modal-background-login">
+        <div class="modal-login">
+      <form action="login.html" class="login-form">
+        <div class="head"> <span class="head_1">Login</span> <span class="login-cancel cancel">&times;</span></div>
+        <input type="text" name="username" class="input-field" placeholder="Username"/>
+       <input type="password" name="password" class="input-field" placeholder="Password" />
+        <button class="btn btn-login" type="submit">Login</button>
+      </form>
+  </div>
+    </section>
     </section>
     </main>
     <script src="./js/main.js" defer></script>
