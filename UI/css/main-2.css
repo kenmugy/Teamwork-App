@@ -99,6 +99,49 @@ button.post:hover {
   background: blue;
 }
 
+.btn-edit {
+  cursor: pointer;
+  padding: .3em;
+  border: none;
+  color: white;
+  background: orange;
+  border-radius: .3em;
+  letter-spacing: .1em;
+  margin-top: .2em 
+}
+
+.btn-edit:hover {
+  background: white;
+  color: orange;
+  border: 1px solid orange;
+}
+
+article {
+  padding: .4em;
+  border: 1px solid;
+  margin: .2em;
+  border-radius: .3em
+}
+
+.article-head {
+  display: flex;
+  justify-content: space-between
+}
+
+h3 {
+  color: rgb(24, 32, 148) 
+}
+
+article p {
+  border-bottom: 2px solid rgb(205, 206, 219);
+  padding-bottom: .2em;
+  color: rgb(24, 32, 148) 
+}
+
+.articles {
+  display: flex;
+  flex-direction: column
+}
 @media screen and (max-width: 500px) {
   nav.container {
     width: 100%;
@@ -118,6 +161,14 @@ button.post:hover {
     outline: none;
     background: none;
     padding: 0.2em;
+  }
+
+  .article-head {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .2em;
+    margin-bottom: .2em;
+    border-bottom: 2px solid rgb(205, 206, 219);
   }
 }
 
