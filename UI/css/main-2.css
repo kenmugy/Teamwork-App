@@ -99,7 +99,7 @@ button.post:hover {
   background: blue;
 }
 
-.btn-edit {
+.btn-edit, .btn-del {
   cursor: pointer;
   padding: .3em;
   border: none;
@@ -115,6 +115,18 @@ button.post:hover {
   color: orange;
   border: 1px solid orange;
 }
+
+.btn-del{
+  color: white;
+  background: red;
+}
+
+.btn-del:hover {
+  background: white;
+  color: red;
+  border: 1px solid red;
+}
+
 
 article {
   padding: .4em;
@@ -169,6 +181,11 @@ article p {
     padding-bottom: .2em;
     margin-bottom: .2em;
     border-bottom: 2px solid rgb(205, 206, 219);
+  }
+
+  .article-btn {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
