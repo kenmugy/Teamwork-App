@@ -99,7 +99,7 @@ button.post:hover {
   background: blue;
 }
 
-.btn-edit, .btn-del {
+.btn-edit, .btn-del, .btn-comment {
   cursor: pointer;
   padding: .3em;
   border: none;
@@ -154,6 +154,30 @@ article p {
   display: flex;
   flex-direction: column
 }
+
+form input{
+  width: 100%;
+  height: 20px;
+  padding: 1em .1em;
+  
+}
+
+form input::placeholder{
+  font-size: 12px;
+  
+}
+
+.btn-comment{
+  color: black;
+  background: grey;
+}
+
+.btn-comment:hover{
+  color: blue;
+  background: none;
+  border: 1px solid blue
+}
+
 @media screen and (max-width: 500px) {
   nav.container {
     width: 100%;
