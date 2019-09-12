@@ -144,6 +144,10 @@ h3 {
   color: rgb(24, 32, 148) 
 }
 
+h3 a {
+  text-decoration: none
+}
+
 article p {
   border-bottom: 2px solid rgb(205, 206, 219);
   padding-bottom: .2em;
